@@ -66,7 +66,7 @@ class Idea(models.Model):
             message,
             EMAIL_HOST_USER,
             to_mail_list,
-            fail_silently=True
+            fail_silently=False
         )
 
     def change_of_status_mail(self):
