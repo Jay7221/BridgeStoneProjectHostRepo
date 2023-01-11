@@ -1,4 +1,4 @@
 git add --a
 git commit -m"Added Commit for hosting"
-cat ../../PAT
+cat ../../../PAT
 git push
