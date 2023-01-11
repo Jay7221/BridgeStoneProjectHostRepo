@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 from program.models import BusinessUnit, Program
 from django.utils import timezone
 from django.core.mail import send_mail
+from IdeaManagementPlatform.settings import EMAIL_HOST_USER
 
 # Create your models here.
 
@@ -63,7 +64,7 @@ class Idea(models.Model):
         send_mail(
             subject,
             message,
-            'wcedummy7798@gmail.com',
+            EMAIL_HOST_USER,
             to_mail_list,
             fail_silently=True
         )
@@ -77,7 +78,7 @@ class Idea(models.Model):
         send_mail(
             subject,
             message,
-            'wcedummy7798@gmail.com',
+            EMAIL_HOST_USER,
             to_mail_list,
             fail_silently=True
         )

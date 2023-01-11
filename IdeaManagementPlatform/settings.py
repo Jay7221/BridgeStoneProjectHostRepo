@@ -147,8 +147,8 @@ MEDIA_URL = '/images/'
 
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_POST=587
-EMAIL_HOST_USER='wcedummy7798@gmail.com'
-EMAIL_HOST_PASSWORD='xfntjvmnfwobaoqi'
+EMAIL_HOST_USER='wcedummy7798@zohomail.in'
+EMAIL_HOST_PASSWORD='wcedummy@1234'
 EMAIL_USE_TLS=True
 
 CSRF_TRUSTED_ORIGINS = ['https://bridgestoneprojecthostrepo-production.up.railway.app']
